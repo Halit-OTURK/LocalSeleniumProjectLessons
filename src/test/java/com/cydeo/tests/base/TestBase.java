@@ -1,6 +1,7 @@
 package com.cydeo.tests.base;
 
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.cydeo.tests.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

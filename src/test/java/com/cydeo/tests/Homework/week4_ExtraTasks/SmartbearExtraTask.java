@@ -1,7 +1,8 @@
 package com.cydeo.tests.Homework.week4_ExtraTasks;
 
-import com.cydeo.utilities.SmartBearUtils;
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.cydeo.tests.utilities.SmartBearUtils;
+import com.cydeo.tests.utilities.WebDriverFactory;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

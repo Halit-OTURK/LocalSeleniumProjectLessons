@@ -1,7 +1,8 @@
 package com.cydeo.tests.Homework.week4_ExtraTasks;
 
-import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.WebDriverFactory;
+
+import com.cydeo.tests.utilities.BrowserUtils;
+import com.cydeo.tests.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
