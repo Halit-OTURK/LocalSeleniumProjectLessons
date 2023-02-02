@@ -1,7 +1,8 @@
-package com.cydeo.practice;
+package com.cydeo.tests.Practices;
 
-import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.Driver;
+
+import com.cydeo.tests.utilities.BrowserUtils;
+import com.cydeo.tests.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -12,6 +13,7 @@ import org.testng.annotations.Test;
 public class Todo {
     @Test
     public void test() {
+
         Driver.getDriver().get("https://todomvc.com/");
         BrowserUtils.sleep(2);
 
