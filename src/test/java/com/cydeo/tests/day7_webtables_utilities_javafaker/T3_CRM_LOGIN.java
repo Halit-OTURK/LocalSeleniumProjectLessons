@@ -1,9 +1,9 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
 
-import com.cydeo.tests.utilities.BrowserUtils;
-import com.cydeo.tests.utilities.CRM_Utilities;
-import com.cydeo.tests.utilities.WebDriverFactory;
+import utilities.BrowserUtils;
+import utilities.CRM_Utilities;
+import utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
