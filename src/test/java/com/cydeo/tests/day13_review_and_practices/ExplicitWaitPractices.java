@@ -39,6 +39,14 @@ NOTE: FOLLOW POM
  */
 
         dynamicControlPages.removeButton.click();
+        //4- Wait until “loading bar disappears”
+//        Driver.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+//        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+//        wait.until(ExpectedConditions.invisibilityOf(dynamicControlsPage.loadingBar));
+// when we use implicit wait and explicit wait same time its gone be confused.
+// Gurhan solve this problem with that code part. important point is first implicit wait value is 0.
+// after the run code rewrite again the implicit wait value is 10 seconds.
+
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.invisibilityOf(dynamicControlPages.loadingBar));
 
