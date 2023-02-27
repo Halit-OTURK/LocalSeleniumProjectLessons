@@ -4,12 +4,14 @@ package utilities;
 In this class only general utility methods that are NOT related to some specific page.
  */
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.util.List;
 import java.util.Set;
 
 public class BrowserUtils {
@@ -73,7 +75,15 @@ public class BrowserUtils {
     Creating a utility method for ExplicitWait, so we don't have to repeat the lines
      */
 
+    public static boolean iframechecker(){
+        List<WebElement> iframes=Driver.getDriver().findElements(By.tagName("iframe"));
 
+        if(iframes.size()==0){
+            return false;
+        }else{
+            return true;
+        }
+    }
 
 }
 /*
